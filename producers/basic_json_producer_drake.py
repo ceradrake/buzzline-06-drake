@@ -92,7 +92,19 @@ def analyze_sentiment(text: str) -> str:
     else: 
         return "Neutral"
 
-def generate_messages():
+def generate_headlines():
+    """Generate news headlines in JSON format with sentiment analysis.
+    """
+    while true: 
+        headline = random.choice(headlines)
+        sentiment = analyze_sentiment(headline)
+        author = random.choice(["NY Times", "NBC News", "CNN", "Associated Press", "USA Today"])
+        # Dictionary with all of the above topics
+        json_message = {
+            "headline": headline,
+            "author" : author, 
+            "sentiment" : sentiment
+        }
 
 
 
