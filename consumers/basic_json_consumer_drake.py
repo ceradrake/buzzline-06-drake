@@ -52,6 +52,7 @@ time_steps = [] #message count for our x axis
 
 fig, ax = plt.subplots()
 plt.ion()  # Turn on interactive mode for live updates
+message_count = 0
 
 #####################################
 # Define an update chart function for live plotting
@@ -60,28 +61,23 @@ plt.ion()  # Turn on interactive mode for live updates
 
 
 def update_chart():
-    """Update the live chart with the latest author counts."""
+    """Update the live chart with the latest sentiment counts."""
     # Clear the previous chart
     ax.clear()
 
-    # Get the authors and counts from the dictionary
-    authors_list = list(author_counts.keys())
-    counts_list = list(author_counts.values())
+    # Get the sentiments and counts from the dictionary
+    sentiments = ['Positive', 'Negative', 'Neutral']
+    counts = [sentiment_counts[sentiment] for sentiment in sentiments]
 
-    # Create a bar chart using the bar() method.
+    # Create a line chart
     # Pass in the x list, the y list, and the color
-    ax.bar(authors_list, counts_list, color="green")
+    ax.plot(sentiments, counts, color="blue", marker="o", linestyle='-', linewidth=2, markersize=6)
 
     # Use the built-in axes methods to set the labels and title
-    ax.set_xlabel("Authors")
-    ax.set_ylabel("Message Counts")
-    ax.set_title("Basic Real-Time Author Message Counts")
+    ax.set_xlabel("Sentiment")
+    ax.set_ylabel("Count")
+    ax.set_title("Sentiment Analysis Over Time")
 
-    # Use the set_xticklabels() method to rotate the x-axis labels
-    # Pass in the x list, specify the rotation angle is 45 degrees,
-    # and align them to the right
-    # ha stands for horizontal alignment
-    ax.set_xticklabels(authors_list, rotation=45, ha="right")
 
     # Use the tight_layout() method to automatically adjust the padding
     plt.tight_layout()
@@ -110,28 +106,26 @@ def process_message(message: str) -> None:
         logger.debug(f"Raw message: {message}")
 
         # Parse the JSON string into a Python dictionary
-        message_dict: dict = json.loads(message)
+        message_dict = json.loads(message)
        
-        # Ensure the processed JSON is logged for debugging
-        logger.info(f"Processed JSON message: {message_dict}")
-
-        # Ensure it's a dictionary before accessing fields
         if isinstance(message_dict, dict):
-            # Extract the 'author' field from the Python dictionary
-            author = message_dict.get("author", "unknown")
-            logger.info(f"Message received from author: {author}")
+            sentiment = message_dict.get("sentiment", "Neutral")  # Default to "Neutral"
+            logger.info(f"Sentiment received: {sentiment}")
 
-            # Increment the count for the author
-            author_counts[author] += 1
+            # Increment the count for the sentiment
+            sentiment_counts[sentiment] += 1
 
-            # Log the updated counts
-            logger.info(f"Updated author counts: {dict(author_counts)}")
+            # Update the list of time steps (this could be the number of messages or timestamps)
+            time_steps.append(message_count)
+
+            # Log the updated sentiment counts
+            logger.info(f"Updated sentiment counts: {dict(sentiment_counts)}")
 
             # Update the chart
             update_chart()
 
-            # Log the updated chart
-            logger.info(f"Chart updated successfully for message: {message}")
+            # Increment the message count
+            message_count += 1
 
         else:
             logger.error(f"Expected a dictionary but got: {type(message_dict)}")
