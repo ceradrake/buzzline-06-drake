@@ -1980,3 +1980,573 @@
 2025-02-23 13:14:50.646 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NBC News', 'sentiment': 'Neutral'}
 2025-02-23 13:14:50.941 | INFO     | __main__:main:150 - START consumer.
 2025-02-23 13:14:50.941 | ERROR    | __main__:main:154 - Data file C:\Users\cerad\OneDrive\Desktop\Streaming Data\Module 6\buzzline-06-drake\data\news_headlines.json does not exist. Exiting.
+2025-02-23 13:14:53.656 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:14:56.667 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'USA Today', 'sentiment': 'Positive'}
+2025-02-23 13:14:59.672 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:15:02.676 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:15:05.688 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:15:08.691 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:15:11.696 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:15:14.701 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:15:17.704 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'NBC News', 'sentiment': 'Negative'}
+2025-02-23 13:15:20.712 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:15:23.733 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:15:26.737 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:15:29.745 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'NY Times', 'sentiment': 'Negative'}
+2025-02-23 13:15:32.778 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'USA Today', 'sentiment': 'Positive'}
+2025-02-23 13:15:35.785 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'Associated Press', 'sentiment': 'Positive'}
+2025-02-23 13:15:38.789 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:15:41.793 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:15:44.800 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'Associated Press', 'sentiment': 'Positive'}
+2025-02-23 13:15:47.834 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:15:50.850 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:15:53.869 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:15:56.878 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:15:59.882 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'NY Times', 'sentiment': 'Negative'}
+2025-02-23 13:16:02.888 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'Associated Press', 'sentiment': 'Positive'}
+2025-02-23 13:16:05.892 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:16:08.897 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:16:11.901 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:16:14.909 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:16:17.915 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:16:20.918 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:16:23.923 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:16:26.929 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:16:29.937 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:16:32.941 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:16:35.949 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:16:38.954 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:16:41.961 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:16:44.965 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:16:47.969 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:16:50.979 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:16:53.988 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:16:56.992 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:16:59.997 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:17:03.007 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:17:06.014 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:17:09.019 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:17:12.022 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:17:15.028 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'Associated Press', 'sentiment': 'Positive'}
+2025-02-23 13:17:18.053 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:17:21.057 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:17:24.065 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:17:27.069 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:17:30.074 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:17:33.087 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:17:36.103 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:17:39.109 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:17:42.123 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:17:45.135 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:17:48.140 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:17:51.148 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:17:54.161 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:17:57.182 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'USA Today', 'sentiment': 'Positive'}
+2025-02-23 13:18:00.186 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:18:03.188 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:18:06.194 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:18:09.208 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:18:12.216 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:18:15.221 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:18:18.238 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:18:21.250 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:18:24.289 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:18:27.590 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'USA Today', 'sentiment': 'Positive'}
+2025-02-23 13:18:30.601 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:18:33.607 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:18:36.615 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:18:39.698 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:18:42.716 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'NBC News', 'sentiment': 'Negative'}
+2025-02-23 13:18:45.729 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:18:48.873 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:18:51.891 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:18:54.904 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:18:57.908 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'Associated Press', 'sentiment': 'Positive'}
+2025-02-23 13:19:00.912 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'Associated Press', 'sentiment': 'Positive'}
+2025-02-23 13:19:03.915 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:19:06.987 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:19:09.998 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:19:13.064 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:19:16.068 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:19:19.080 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:19:22.085 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:19:25.091 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'NBC News', 'sentiment': 'Negative'}
+2025-02-23 13:19:28.108 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:19:31.123 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:19:34.129 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:19:37.136 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:19:40.151 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:19:43.156 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NBC News', 'sentiment': 'Positive'}
+2025-02-23 13:19:46.166 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:19:49.171 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:19:52.187 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:19:55.192 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:19:58.222 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'NBC News', 'sentiment': 'Negative'}
+2025-02-23 13:20:01.236 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:20:04.246 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:20:07.255 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:20:10.259 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:20:13.266 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'USA Today', 'sentiment': 'Positive'}
+2025-02-23 13:20:16.339 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:20:19.901 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:20:22.919 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:20:25.926 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:20:28.939 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:20:31.947 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:20:34.954 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:20:37.957 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:20:40.960 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:20:43.964 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:20:46.981 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:20:49.987 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:20:52.990 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:20:56.002 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:20:59.100 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:21:02.122 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:21:05.125 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:21:08.136 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:21:11.139 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:21:14.144 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:21:17.149 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:21:20.156 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:21:23.167 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:21:26.173 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'Associated Press', 'sentiment': 'Positive'}
+2025-02-23 13:21:29.179 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:21:32.187 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'USA Today', 'sentiment': 'Positive'}
+2025-02-23 13:21:35.196 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:21:38.199 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:21:41.202 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:21:44.211 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NBC News', 'sentiment': 'Positive'}
+2025-02-23 13:21:47.230 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'NBC News', 'sentiment': 'Negative'}
+2025-02-23 13:21:50.236 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'USA Today', 'sentiment': 'Positive'}
+2025-02-23 13:21:53.240 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:22:20.770 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-23 13:22:20.775 | INFO     | __main__:<module>:51 - Project root: C:\Users\cerad\OneDrive\Desktop\Streaming Data\Module 6\buzzline-06-drake
+2025-02-23 13:22:20.776 | INFO     | __main__:<module>:55 - Data folder: C:\Users\cerad\OneDrive\Desktop\Streaming Data\Module 6\buzzline-06-drake\data
+2025-02-23 13:22:20.777 | INFO     | __main__:<module>:59 - Data file: C:\Users\cerad\OneDrive\Desktop\Streaming Data\Module 6\buzzline-06-drake\data\news_headlines.json
+2025-02-23 13:22:20.777 | INFO     | __main__:main:129 - START producer...
+2025-02-23 13:22:20.778 | INFO     | __main__:main:130 - Hit CTRL c (or CMD c) to close.
+2025-02-23 13:22:20.778 | INFO     | __main__:get_message_interval:41 - Message interval: 3 seconds
+2025-02-23 13:22:20.818 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'USA Today', 'sentiment': 'Positive'}
+2025-02-23 13:22:23.821 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:22:26.824 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:22:29.826 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:22:32.832 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'Associated Press', 'sentiment': 'Positive'}
+2025-02-23 13:22:35.834 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:22:38.839 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:22:41.870 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:22:43.226 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-23 13:22:43.229 | INFO     | __main__:<module>:38 - Project root: C:\Users\cerad\OneDrive\Desktop\Streaming Data\Module 6\buzzline-06-drake
+2025-02-23 13:22:43.229 | INFO     | __main__:<module>:39 - Data folder: C:\Users\cerad\OneDrive\Desktop\Streaming Data\Module 6\buzzline-06-drake\data
+2025-02-23 13:22:43.230 | INFO     | __main__:<module>:40 - Data file: C:\Users\cerad\OneDrive\Desktop\Streaming Data\Module 6\buzzline-06-drake\data\news_headlines.json
+2025-02-23 13:22:43.499 | INFO     | __main__:main:150 - START consumer.
+2025-02-23 13:22:44.876 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:22:45.013 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:22:45.013 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:22:47.886 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:22:48.022 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:22:48.022 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:22:50.890 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:22:51.030 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:22:51.031 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:22:53.893 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:22:54.039 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:22:54.039 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:22:56.896 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:22:57.053 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:22:57.053 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:22:59.901 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:23:00.059 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:23:00.060 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:02.904 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'Associated Press', 'sentiment': 'Positive'}
+2025-02-23 13:23:03.069 | INFO     | __main__:process_message:113 - Sentiment received: Positive
+2025-02-23 13:23:03.070 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:05.907 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:23:06.078 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:23:06.078 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:08.924 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:23:09.086 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:23:09.086 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:11.932 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'USA Today', 'sentiment': 'Positive'}
+2025-02-23 13:23:12.093 | INFO     | __main__:process_message:113 - Sentiment received: Positive
+2025-02-23 13:23:12.095 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:14.935 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:23:15.154 | INFO     | __main__:process_message:113 - Sentiment received: Negative
+2025-02-23 13:23:15.154 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:17.939 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:23:18.163 | INFO     | __main__:process_message:113 - Sentiment received: Positive
+2025-02-23 13:23:18.163 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:20.944 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:23:21.276 | INFO     | __main__:process_message:113 - Sentiment received: Positive
+2025-02-23 13:23:21.289 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:23.949 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:23:24.327 | INFO     | __main__:process_message:113 - Sentiment received: Negative
+2025-02-23 13:23:24.330 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:26.956 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'Associated Press', 'sentiment': 'Positive'}
+2025-02-23 13:23:27.343 | INFO     | __main__:process_message:113 - Sentiment received: Positive
+2025-02-23 13:23:27.343 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:29.967 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:23:30.387 | INFO     | __main__:process_message:113 - Sentiment received: Negative
+2025-02-23 13:23:30.388 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:32.971 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:23:33.401 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:23:33.402 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:35.976 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:23:36.441 | INFO     | __main__:process_message:113 - Sentiment received: Positive
+2025-02-23 13:23:36.442 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:38.993 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:23:39.170 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:23:39.170 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:41.997 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:23:42.186 | INFO     | __main__:process_message:113 - Sentiment received: Negative
+2025-02-23 13:23:42.186 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:45.003 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'NBC News', 'sentiment': 'Negative'}
+2025-02-23 13:23:45.199 | INFO     | __main__:process_message:113 - Sentiment received: Negative
+2025-02-23 13:23:45.200 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:48.007 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:23:48.251 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:23:48.252 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:51.011 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:23:51.266 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:23:51.268 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:54.019 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'NY Times', 'sentiment': 'Negative'}
+2025-02-23 13:23:54.281 | INFO     | __main__:process_message:113 - Sentiment received: Negative
+2025-02-23 13:23:54.282 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:23:57.025 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:23:57.311 | INFO     | __main__:process_message:113 - Sentiment received: Positive
+2025-02-23 13:23:57.312 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:00.035 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:24:00.344 | INFO     | __main__:process_message:113 - Sentiment received: Positive
+2025-02-23 13:24:00.344 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:03.050 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:24:03.359 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:24:03.360 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:06.055 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:24:06.372 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:24:06.373 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:09.059 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:24:09.408 | INFO     | __main__:process_message:113 - Sentiment received: Negative
+2025-02-23 13:24:09.408 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:12.062 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:24:12.433 | INFO     | __main__:process_message:113 - Sentiment received: Positive
+2025-02-23 13:24:12.434 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:15.068 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:24:15.445 | INFO     | __main__:process_message:113 - Sentiment received: Negative
+2025-02-23 13:24:15.446 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:18.076 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NBC News', 'sentiment': 'Positive'}
+2025-02-23 13:24:18.459 | INFO     | __main__:process_message:113 - Sentiment received: Positive
+2025-02-23 13:24:18.460 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:21.208 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:24:21.534 | INFO     | __main__:process_message:113 - Sentiment received: Positive
+2025-02-23 13:24:21.535 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:24.317 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:24:24.548 | INFO     | __main__:process_message:113 - Sentiment received: Positive
+2025-02-23 13:24:24.550 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:27.320 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:24:27.619 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:24:27.620 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:30.326 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:24:30.635 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:24:30.635 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:33.330 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:24:33.652 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:24:33.653 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:36.335 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:24:36.693 | INFO     | __main__:process_message:113 - Sentiment received: Positive
+2025-02-23 13:24:36.695 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:39.340 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'NY Times', 'sentiment': 'Negative'}
+2025-02-23 13:24:39.748 | INFO     | __main__:process_message:113 - Sentiment received: Negative
+2025-02-23 13:24:39.749 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:42.346 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:24:42.766 | INFO     | __main__:process_message:113 - Sentiment received: Negative
+2025-02-23 13:24:42.766 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:45.350 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:24:45.779 | INFO     | __main__:process_message:113 - Sentiment received: Negative
+2025-02-23 13:24:45.780 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:48.358 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:24:48.803 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:24:48.804 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:51.378 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:24:51.827 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:24:51.828 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:54.396 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:24:54.843 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:24:54.844 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:24:57.432 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:24:57.860 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:24:57.862 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:25:00.438 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:25:00.892 | INFO     | __main__:process_message:113 - Sentiment received: Negative
+2025-02-23 13:25:00.892 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:25:03.486 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:25:03.928 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:25:03.931 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:25:06.501 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:25:07.010 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:25:07.010 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:25:09.511 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:25:09.616 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:25:09.617 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:25:12.519 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:25:12.695 | INFO     | __main__:process_message:113 - Sentiment received: Positive
+2025-02-23 13:25:12.696 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:25:15.523 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:25:15.749 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:25:15.750 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:25:18.528 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:25:18.777 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:25:18.778 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:25:21.538 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:25:21.790 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:25:21.791 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:25:24.566 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:25:24.807 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:25:24.808 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:25:27.569 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NBC News', 'sentiment': 'Positive'}
+2025-02-23 13:25:27.825 | INFO     | __main__:process_message:113 - Sentiment received: Positive
+2025-02-23 13:25:27.827 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:25:30.595 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:25:30.848 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:25:30.850 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:25:33.600 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:25:33.872 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:25:33.873 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:25:36.608 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:25:36.883 | INFO     | __main__:process_message:113 - Sentiment received: Positive
+2025-02-23 13:25:36.884 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:25:39.618 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'Associated Press', 'sentiment': 'Positive'}
+2025-02-23 13:25:39.916 | INFO     | __main__:process_message:113 - Sentiment received: Positive
+2025-02-23 13:25:39.918 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:25:42.623 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:25:42.852 | INFO     | __main__:process_message:113 - Sentiment received: Neutral
+2025-02-23 13:25:42.853 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:25:45.752 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:25:45.866 | INFO     | __main__:process_message:113 - Sentiment received: Negative
+2025-02-23 13:25:45.867 | ERROR    | __main__:process_message:136 - Error processing message: cannot access local variable 'message_count' where it is not associated with a value
+2025-02-23 13:25:48.763 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'USA Today', 'sentiment': 'Positive'}
+2025-02-23 13:25:51.765 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:25:54.767 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'USA Today', 'sentiment': 'Positive'}
+2025-02-23 13:25:57.770 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NBC News', 'sentiment': 'Positive'}
+2025-02-23 13:26:00.777 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:26:03.781 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:26:06.783 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NBC News', 'sentiment': 'Positive'}
+2025-02-23 13:26:09.785 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:26:12.791 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NBC News', 'sentiment': 'Positive'}
+2025-02-23 13:26:15.798 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'NY Times', 'sentiment': 'Negative'}
+2025-02-23 13:26:18.907 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:26:21.911 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:26:24.916 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:26:27.920 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:26:30.923 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:26:33.925 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:26:36.935 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:26:39.966 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:26:42.982 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:26:46.157 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'USA Today', 'sentiment': 'Positive'}
+2025-02-23 13:26:49.174 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:26:52.177 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:26:55.182 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:26:58.211 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NBC News', 'sentiment': 'Positive'}
+2025-02-23 13:27:01.233 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:27:04.235 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:27:07.240 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:27:10.258 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:27:13.301 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:27:16.304 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:27:19.309 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'NBC News', 'sentiment': 'Negative'}
+2025-02-23 13:27:22.314 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:27:25.318 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:27:28.323 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'Associated Press', 'sentiment': 'Positive'}
+2025-02-23 13:27:31.325 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:27:34.329 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'NY Times', 'sentiment': 'Negative'}
+2025-02-23 13:27:37.333 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:27:40.335 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:27:43.344 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'Associated Press', 'sentiment': 'Positive'}
+2025-02-23 13:27:46.350 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:27:49.355 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:27:52.360 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:27:55.363 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:27:58.366 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:28:01.416 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:28:04.433 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:28:07.464 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:28:10.466 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:28:13.482 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:28:16.490 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:28:19.496 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:28:22.506 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:28:25.670 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'Associated Press', 'sentiment': 'Positive'}
+2025-02-23 13:28:28.843 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:28:31.846 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:28:34.848 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'USA Today', 'sentiment': 'Positive'}
+2025-02-23 13:28:37.850 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:28:40.855 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:28:43.858 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'NBC News', 'sentiment': 'Negative'}
+2025-02-23 13:28:46.861 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:28:49.863 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:28:52.867 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:28:55.870 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:28:58.875 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:29:01.879 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:29:04.884 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:29:07.915 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:29:10.936 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:29:13.948 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:29:16.957 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NBC News', 'sentiment': 'Positive'}
+2025-02-23 13:29:19.960 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:29:22.963 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NBC News', 'sentiment': 'Positive'}
+2025-02-23 13:29:25.965 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:29:28.969 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:29:31.971 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'USA Today', 'sentiment': 'Positive'}
+2025-02-23 13:29:34.977 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:29:38.011 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:29:41.158 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'NY Times', 'sentiment': 'Negative'}
+2025-02-23 13:29:44.161 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:29:47.171 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NBC News', 'sentiment': 'Positive'}
+2025-02-23 13:29:50.173 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:29:53.232 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:29:56.480 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:29:59.694 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:30:02.775 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:30:05.915 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:30:08.921 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:30:11.925 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:30:14.927 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:30:17.929 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:30:20.935 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'USA Today', 'sentiment': 'Positive'}
+2025-02-23 13:30:23.938 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:30:26.942 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'Associated Press', 'sentiment': 'Positive'}
+2025-02-23 13:30:29.949 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:30:32.951 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:30:35.960 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:30:38.971 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:30:41.975 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:30:44.978 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:30:47.980 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:30:50.985 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:30:52.835 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-23 13:30:52.836 | INFO     | __main__:<module>:38 - Project root: C:\Users\cerad\OneDrive\Desktop\Streaming Data\Module 6\buzzline-06-drake
+2025-02-23 13:30:52.836 | INFO     | __main__:<module>:39 - Data folder: C:\Users\cerad\OneDrive\Desktop\Streaming Data\Module 6\buzzline-06-drake\data
+2025-02-23 13:30:52.836 | INFO     | __main__:<module>:40 - Data file: C:\Users\cerad\OneDrive\Desktop\Streaming Data\Module 6\buzzline-06-drake\data\news_headlines.json
+2025-02-23 13:30:53.121 | INFO     | __main__:main:151 - START consumer.
+2025-02-23 13:30:53.997 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'NY Times', 'sentiment': 'Negative'}
+2025-02-23 13:30:54.134 | INFO     | __main__:process_message:114 - Sentiment received: Negative
+2025-02-23 13:30:54.134 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 1}
+2025-02-23 13:30:57.002 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:30:57.381 | INFO     | __main__:process_message:114 - Sentiment received: Neutral
+2025-02-23 13:30:57.381 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 1, 'Positive': 0, 'Neutral': 1}
+2025-02-23 13:31:00.007 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'NY Times', 'sentiment': 'Negative'}
+2025-02-23 13:31:00.475 | INFO     | __main__:process_message:114 - Sentiment received: Negative
+2025-02-23 13:31:00.476 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 2, 'Positive': 0, 'Neutral': 1}
+2025-02-23 13:31:03.069 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NBC News', 'sentiment': 'Positive'}
+2025-02-23 13:31:03.574 | INFO     | __main__:process_message:114 - Sentiment received: Positive
+2025-02-23 13:31:03.574 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 2, 'Positive': 1, 'Neutral': 1}
+2025-02-23 13:31:06.082 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:31:06.173 | INFO     | __main__:process_message:114 - Sentiment received: Negative
+2025-02-23 13:31:06.174 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 3, 'Positive': 1, 'Neutral': 1}
+2025-02-23 13:31:09.089 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:31:09.278 | INFO     | __main__:process_message:114 - Sentiment received: Neutral
+2025-02-23 13:31:09.278 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 3, 'Positive': 1, 'Neutral': 2}
+2025-02-23 13:31:12.093 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:31:12.388 | INFO     | __main__:process_message:114 - Sentiment received: Neutral
+2025-02-23 13:31:12.389 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 3, 'Positive': 1, 'Neutral': 3}
+2025-02-23 13:31:15.096 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'NBC News', 'sentiment': 'Negative'}
+2025-02-23 13:31:15.507 | INFO     | __main__:process_message:114 - Sentiment received: Negative
+2025-02-23 13:31:15.509 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 4, 'Positive': 1, 'Neutral': 3}
+2025-02-23 13:31:18.104 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:31:18.134 | INFO     | __main__:process_message:114 - Sentiment received: Negative
+2025-02-23 13:31:18.134 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 5, 'Positive': 1, 'Neutral': 3}
+2025-02-23 13:31:21.113 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:31:21.255 | INFO     | __main__:process_message:114 - Sentiment received: Negative
+2025-02-23 13:31:21.255 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 6, 'Positive': 1, 'Neutral': 3}
+2025-02-23 13:31:24.129 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:31:24.365 | INFO     | __main__:process_message:114 - Sentiment received: Neutral
+2025-02-23 13:31:24.366 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 6, 'Positive': 1, 'Neutral': 4}
+2025-02-23 13:31:27.134 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:31:27.477 | INFO     | __main__:process_message:114 - Sentiment received: Neutral
+2025-02-23 13:31:27.478 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 6, 'Positive': 1, 'Neutral': 5}
+2025-02-23 13:31:30.138 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:31:30.571 | INFO     | __main__:process_message:114 - Sentiment received: Neutral
+2025-02-23 13:31:30.573 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 6, 'Positive': 1, 'Neutral': 6}
+2025-02-23 13:31:33.143 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'USA Today', 'sentiment': 'Positive'}
+2025-02-23 13:31:34.346 | INFO     | __main__:process_message:114 - Sentiment received: Positive
+2025-02-23 13:31:34.346 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 6, 'Positive': 2, 'Neutral': 6}
+2025-02-23 13:31:36.974 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'Associated Press', 'sentiment': 'Positive'}
+2025-02-23 13:31:37.445 | INFO     | __main__:process_message:114 - Sentiment received: Positive
+2025-02-23 13:31:37.446 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 6, 'Positive': 3, 'Neutral': 6}
+2025-02-23 13:31:39.980 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:31:40.031 | INFO     | __main__:process_message:114 - Sentiment received: Negative
+2025-02-23 13:31:40.032 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 7, 'Positive': 3, 'Neutral': 6}
+2025-02-23 13:31:42.984 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'USA Today', 'sentiment': 'Positive'}
+2025-02-23 13:31:43.151 | INFO     | __main__:process_message:114 - Sentiment received: Positive
+2025-02-23 13:31:43.152 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 7, 'Positive': 4, 'Neutral': 6}
+2025-02-23 13:31:45.991 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:31:46.072 | INFO     | __main__:process_message:114 - Sentiment received: Neutral
+2025-02-23 13:31:46.073 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 7, 'Positive': 4, 'Neutral': 7}
+2025-02-23 13:31:48.997 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:31:49.310 | INFO     | __main__:process_message:114 - Sentiment received: Negative
+2025-02-23 13:31:49.320 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 8, 'Positive': 4, 'Neutral': 7}
+2025-02-23 13:31:51.999 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:31:52.402 | INFO     | __main__:process_message:114 - Sentiment received: Neutral
+2025-02-23 13:31:52.457 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 8, 'Positive': 4, 'Neutral': 8}
+2025-02-23 13:31:55.002 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:31:55.490 | INFO     | __main__:process_message:114 - Sentiment received: Neutral
+2025-02-23 13:31:55.490 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 8, 'Positive': 4, 'Neutral': 9}
+2025-02-23 13:31:58.005 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:31:58.221 | INFO     | __main__:process_message:114 - Sentiment received: Negative
+2025-02-23 13:31:58.222 | INFO     | __main__:process_message:123 - Updated sentiment counts: {'Negative': 9, 'Positive': 4, 'Neutral': 9}
+2025-02-23 13:32:01.010 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:32:04.012 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'NY Times', 'sentiment': 'Negative'}
+2025-02-23 13:32:07.041 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:32:10.058 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:32:13.061 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'NBC News', 'sentiment': 'Negative'}
+2025-02-23 13:32:16.064 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:32:19.073 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:32:22.079 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:32:25.092 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:32:28.095 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:32:31.103 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:32:34.108 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:32:37.112 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:32:40.117 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:32:43.120 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:32:46.122 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:32:49.126 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:32:52.131 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:32:55.133 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:32:58.136 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'Associated Press', 'sentiment': 'Negative'}
+2025-02-23 13:33:01.139 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:33:04.143 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:33:07.148 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:33:10.156 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:33:13.159 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:33:16.162 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'NY Times', 'sentiment': 'Negative'}
+2025-02-23 13:33:19.175 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'Associated Press', 'sentiment': 'Positive'}
+2025-02-23 13:33:22.182 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'NBC News', 'sentiment': 'Negative'}
+2025-02-23 13:33:25.187 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'CNN', 'sentiment': 'Negative'}
+2025-02-23 13:33:28.190 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NBC News', 'sentiment': 'Positive'}
+2025-02-23 13:33:31.194 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:33:34.204 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'USA Today', 'sentiment': 'Positive'}
+2025-02-23 13:33:37.206 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:33:40.208 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:33:43.216 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NY Times', 'sentiment': 'Neutral'}
+2025-02-23 13:33:46.224 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NBC News', 'sentiment': 'Positive'}
+2025-02-23 13:33:49.261 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'Associated Press', 'sentiment': 'Positive'}
+2025-02-23 13:33:52.265 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:33:55.267 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:33:58.271 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'NY Times', 'sentiment': 'Positive'}
+2025-02-23 13:34:01.276 | INFO     | __main__:main:138 - {'headline': "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:34:04.278 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:34:07.283 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:34:10.286 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:34:13.291 | INFO     | __main__:main:138 - {'headline': 'Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters.', 'author': 'NBC News', 'sentiment': 'Positive'}
+2025-02-23 13:34:16.294 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'Associated Press', 'sentiment': 'Neutral'}
+2025-02-23 13:34:19.298 | INFO     | __main__:main:138 - {'headline': 'France prepares for largest child abuse trial in its history.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:34:22.301 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'USA Today', 'sentiment': 'Neutral'}
+2025-02-23 13:34:25.305 | INFO     | __main__:main:138 - {'headline': 'Delta flight returns to LAX after takeoff over smoke detected midair.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:34:28.309 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'USA Today', 'sentiment': 'Negative'}
+2025-02-23 13:34:31.314 | INFO     | __main__:main:138 - {'headline': 'Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.', 'author': 'NBC News', 'sentiment': 'Negative'}
+2025-02-23 13:34:34.319 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'CNN', 'sentiment': 'Neutral'}
+2025-02-23 13:34:37.322 | INFO     | __main__:main:138 - {'headline': 'Pope Francis is in critical condition but alert, Vatican says.', 'author': 'NBC News', 'sentiment': 'Neutral'}
+2025-02-23 13:34:40.325 | INFO     | __main__:main:138 - {'headline': 'Eggs are a hot commodity. On social media, posting about them can help you go viral.', 'author': 'CNN', 'sentiment': 'Positive'}
+2025-02-23 13:34:43.330 | INFO     | __main__:main:138 - {'headline': 'Horses and humans go blind for similar reasons, so this medicine might cure both.', 'author': 'Associated Press', 'sentiment': 'Negative'}

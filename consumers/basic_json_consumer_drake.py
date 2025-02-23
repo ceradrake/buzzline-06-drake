@@ -101,6 +101,7 @@ def process_message(message: str) -> None:
     Args:
         message (str): The JSON message as a string.
     """
+    global message_count
     try:
         # Log the raw message for debugging
         logger.debug(f"Raw message: {message}")
@@ -148,6 +149,9 @@ def main() -> None:
     """
 
     logger.info("START consumer.")
+
+    global message_count
+    message_count = 0
 
     # Verify the file we're monitoring exists if not, exit early
     if not DATA_FILE.exists():

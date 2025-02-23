@@ -1,5 +1,9 @@
 # buzzline - 06 - drake
 
+I wanted to look at the overall sentiment analysis of news headlines. I am generating fake data for this module versus pulling from real news sources. Each message that is generated will show the source, the headline, and the sentiment analysis of that particular headline. The consumer will then consume that information and create a line chart to reflect the amount of times each sentiment is displayed over a period of time. 
+
+The producer that
+
 We can analyze and visualize different types of streaming data as the information arrives.
 
 The producers don't change from buzzline-03-case - they write the same information to a Kafka topic, except the csv producer for the smart smoker has been modified to not run continuously. It will stop after reading all the rows in the CSV file. 
@@ -66,13 +70,13 @@ Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m producers.basic_json_producer_case
+py -m producers.basic_json_producer_drake
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m producers.basic_json_producer_case
+python3 -m producers.basic_json_producer_drake
 ```
 
 ### Consumer Terminal
@@ -85,13 +89,13 @@ Use the commands below to activate .venv, and start the consumer.
 Windows:
 ```shell
 .venv\Scripts\activate
-py -m consumers.basic_json_consumer_case
+py -m consumers.basic_json_consumer_drake
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.basic_json_consumer_case
+python3 -m consumers.basic_json_consumer_drake
 ```
 
 ### Review the Application Code
@@ -104,80 +108,7 @@ When done, remember to kill the associated terminals for the producer and consum
 
 ---
 
-## Task 6. Start a (Kafka-based) JSON Streaming Application
 
-This will take two terminals:
-
-1. One to run the producer which writes to a Kafka topic. 
-2. Another to run the consumer which reads from that Kafka topic.
-
-For each one, you will need to: 
-1. Open a new terminal. 
-2. Activate your .venv.
-3. Know the command that works on your machine to execute python (e.g. py or python3).
-4. Know how to use the -m (module flag to run your file as a module).
-5. Know the full name of the module you want to run. 
-   - Look in the producers folder for json_producer_case.
-   - Look in the consumers folder for json_consumer_case.
-
-
-### Review the Application Code
-
-Review the code for both the producer and the consumer. 
-Understand how the information is generated and written to a Kafka topic, and consumed from the topic and processed. 
-Review the visualization code to see how the live chart is produced. 
-
-Compare the non-Kafka JSON streaming application to the Kafka JSON streaming application.
-By organizing code into reusable functions, which functions can be reused? 
-Which functions must be updated based on the sharing mechanism? 
-What new functions/features must be added to work with a Kafka-based streaming system?
-
-When done, remember to kill the associated terminals for the producer and consumer. 
-
----
-
-## Task 7. Start a (Kafka-based) CSV Streaming Application
-
-This will take two terminals:
-
-1. One to run the producer which writes to a Kafka topic. 
-2. Another to run the consumer which reads from that Kafka topic.
-
-For each one, you will need to: 
-1. Open a new terminal. 
-2. Activate your .venv.
-3. Know the command that works on your machine to execute python (e.g. py or python3).
-4. Know how to use the -m (module flag to run your file as a module).
-5. Know the full name of the module you want to run. 
-   - Look in the producers folder for csv_producer_case.
-   - Look in the consumers folder for csv_consumer_case.
-
-### Review the Application Code
-
-Review the code for both the producer and the consumer. 
-Understand how the information is generated and written to a Kafka topic, and consumed from the topic and processed. 
-Review the visualization code to see how the live chart is produced. 
-
-Compare the JSON application to the CSV streaming application.
-By organizing code into reusable functions, which functions can be reused? 
-Which functions must be updated based on the type of data?
-How does the visualization code get changed based on the type of data and type of chart used?
-Which aspects are similar between the different types of data? 
-
-When done, remember to kill the associated terminals for the producer and consumer. 
-
----
-
-## Possible Explorations
-
-- JSON: Process messages in batches of 5 messages.
-- JSON:Limit the display to the top 3 authors.
-- Modify chart appearance.
-- Stream a different set of data and visualize the custom stream with an appropriate chart. 
-- How do we find out what types of charts are available? 
-- How do we find out what attributes and colors are available?
-
----
 
 ## Later Work Sessions
 When resuming work on this project:
