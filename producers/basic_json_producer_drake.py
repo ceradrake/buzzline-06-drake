@@ -61,6 +61,17 @@ logger.info(f"Data file: {DATA_FILE}")
 # Define global variables
 #####################################
 
+headlines: list = [
+    "Delta flight returns to LAX after takeoff over smoke detected midair.",
+    "Pope Francis is in critical condition but alert, Vatican says.",
+    "Need to attend a meeting, order groceries or book a flight. There's an 'AI Agent' for that.", 
+    "Eggs are a hot commodity. On social media, posting about them can help you go viral.",
+    "Scientists discover low-cost way to trap carbon using common rocks - and it could help farmers too.",
+    "Horses and humans go blind for similar reasons, so this medicine might cure both.",
+    "France prepares for largest child abuse trial in its history.",
+    "Disability amid disaster: People with disabilities are disproportionately impacted by natural disasters."
+]
+
 
 
 #####################################
