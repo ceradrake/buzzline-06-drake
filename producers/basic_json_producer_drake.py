@@ -16,6 +16,9 @@ import random
 import time
 import pathlib
 
+#sentiment analysis modules
+from textblob import TextBlob
+
 # Import external packages (must be installed in .venv first)
 from dotenv import load_dotenv
 
@@ -76,6 +79,18 @@ headlines: list = [
 # Define a function to generate buzz messages
 #####################################
 
+#Sentiment analysis function
+def analyze_sentiment(text: str) -> str:
+    """Analyze the sentiment of the provided news headlines. Return either positive, negative, or neutral.
+    """
+    blob = TextBlob(text)
+    polarity = blob.sentiment.polarity
+    if polarity > 0:
+        return "Positive"
+    if polarity < 0:
+        return "Negative"
+    else: 
+        return "Neutral"
 
 def generate_messages():
 
