@@ -95,7 +95,7 @@ def analyze_sentiment(text: str) -> str:
 def generate_headlines():
     """Generate news headlines in JSON format with sentiment analysis.
     """
-    while true: 
+    while True: 
         headline = random.choice(headlines)
         sentiment = analyze_sentiment(headline)
         author = random.choice(["NY Times", "NBC News", "CNN", "Associated Press", "USA Today"])
@@ -105,6 +105,7 @@ def generate_headlines():
             "author" : author, 
             "sentiment" : sentiment
         }
+        yield json_message
 
 
 
@@ -133,7 +134,7 @@ def main() -> None:
     interval_secs: int = get_message_interval()
 
     try:
-        for message in generate_messages():
+        for message in generate_headlines():
             logger.info(message)
             with DATA_FILE.open("a") as f:
                 f.write(json.dumps(message) + "\n")
