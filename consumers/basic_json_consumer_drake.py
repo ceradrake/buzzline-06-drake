@@ -43,7 +43,8 @@ logger.info(f"Data file: {DATA_FILE}")
 # Set up data structures
 #####################################
 
-author_counts = defaultdict(int)
+sentiment_counts = defaultdict(int)
+time_steps = [] #message count for our x axis
 
 #####################################
 # Set up live visuals
