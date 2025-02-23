@@ -1,10 +1,8 @@
 """
-basic_json_producer_case.py
+basic_json_producer_drake
 
-Generate some streaming buzz message json data to a file without using Kafka.
+Generate some streaming news headline message json data to a file without using Kafka.
 
-Example JSON message 
-{"message": "I just saw a movie! It was amazing.", "author": "Eve"}
 """
 
 #####################################
