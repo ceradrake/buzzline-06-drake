@@ -71,9 +71,9 @@ def update_chart():
 
     # Create a line chart
     # Pass in the x list, the y list, and the color
-    ax.plot(sentiments, counts, color="blue", marker="o", linestyle='-', linewidth=2, markersize=6)
-
     # Use the built-in axes methods to set the labels and title
+    ax.clear()
+    ax.bar(sentiments, counts, color = "blue")
     ax.set_xlabel("Sentiment")
     ax.set_ylabel("Count")
     ax.set_title("Sentiment Analysis Over Time")
